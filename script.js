@@ -292,7 +292,7 @@ function createBloodRain() {
         drop.style.left = `${Math.random() * 100}vw`;
         drop.style.width = `${1 + Math.random() * 2}px`;
         drop.style.height = `${20 + Math.random() * 30}px`;
-        drop.style.background = 'linear-gradient(to bottom, #0000ff, transparent)';
+        drop.style.background = 'linear-gradient(to bottom, #43859e, transparent)';
         drop.style.pointerEvents = 'none';
         drop.style.zIndex = '3';
         document.body.appendChild(drop);
